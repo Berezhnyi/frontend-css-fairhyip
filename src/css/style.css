@@ -2,6 +2,13 @@ body {
 
 }
 
+.inline {
+	display: inline-block;
+	height: 200px;
+	margin-top: 30px;
+	background-color: forestgreen;
+}
+
 .mainmenu {
 
 }
@@ -11,11 +18,15 @@ body {
 }
 
 .mainmenu .menu-item {
-
+	display: inline-block;
 }
 
 .mainmenu a {
-	
+
+}
+
+.header {
+	padding-top: 42px;
 }
 
 h1 {
@@ -30,6 +41,7 @@ h1 {
 	min-height: 116px;
 	max-width: 1000px;
 	background-image: url(../images/bg_about.png), url(../images/bg_promo.png);
+	background-color: #542805;
 	background-repeat: no-repeat, repeat;
 	background-position: 57px 31px, 0 0;
 	border-radius: 8px;
