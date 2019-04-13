@@ -1,4 +1,6 @@
 body {
+	background: url(../images/bg_body.jpg);
+	background-repeat: repeat;
 
 }
 
@@ -38,8 +40,9 @@ h1 {
 }
 
 .promo {
+	margin: 0 auto;
 	min-height: 116px;
-	max-width: 1000px;
+	max-width: 810px;
 	background-image: url(../images/bg_about.png), url(../images/bg_promo.png);
 	background-color: #542805;
 	background-repeat: no-repeat, repeat;
@@ -51,4 +54,44 @@ h1 {
 	color: #f9da5a;
 	line-height: 22px;
 	padding: 20px 45px 20px 145px;
+}
+
+.article {
+	display: block;
+	margin: 0 auto;
+	max-width: 960px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #d7cfc8;
+	font-size: 11px;
+	line-height: normal;
+}
+
+h2 {
+	color: #fff68d;
+	font-size: 18px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer {
+	max-width: 980px;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.footer .copyright {
+	color: #f9da5a;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 11px;
+	line-height: 47px;
+}
+
+.menu-list .menu-item {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 11px;
+	line-height: 47px;
+	/* color: #fff; */
+}
+
+.menu-list a {
+	color: #fff;
 }
