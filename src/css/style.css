@@ -31,6 +31,7 @@ ul li {
 	/* color: #461500; */
 	position: absolute;
 	right: 0;
+	text-decoration: none;
 }
 
 .mainmenu .menu-item {
@@ -102,6 +103,7 @@ h2 {
 	margin: 0 auto;
 	/* display: inline-block; */
 	/* position: relative; */
+	border-top: 2px solid #9b7c3e;
 }
 
 .footer .copyright {
